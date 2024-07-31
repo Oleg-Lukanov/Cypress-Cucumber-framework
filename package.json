@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run", 
+    "cypress:run:desktop": "cypress run --config-file cypress/config/desktop.js",
+    "cypress:run:tablet": "cypress run --config-file cypress/config/tablet.js",
+    "cypress:run:mobile": "cypress run --config-file cypress/config/mobile.js"
   },
   "author": "",
   "license": "ISC",
